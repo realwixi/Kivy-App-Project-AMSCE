@@ -5,13 +5,15 @@ from kivy.uix.widget import Widget
 
 
 class BoxLayoutExample(BoxLayout):
-    def __init__(self, **kwargs):
+    pass
+    
+    '''def __init__(self, **kwargs):
         super().__init__(**kwargs)
         b1 = Button(text='a')
         b2 = Button(text='b')
 
         self.add_widget(b1)
-        self.add_widget(b2)
+        self.add_widget(b2)'''
 
 class MainWidget(Widget):
     pass
